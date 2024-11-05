@@ -1,8 +1,10 @@
+import Searcher from "./pages/Searcher"
 
 function App() {
 
   return (
     <>
+    <Searcher />
     </>
   )
 }
