@@ -9,8 +9,8 @@ function Searcher() {
             <input></input>
             <button type="button"></button>
         </div>
-        <div className="divider">
-            <span className="spanOu">ou</span>
+        <div className="ouText">
+            <span>ou</span>
         </div>
         <div>
             <p>acesse sua conta</p>
