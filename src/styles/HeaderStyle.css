@@ -1,0 +1,23 @@
+body{
+    padding: 0;
+    margin: 0;
+    position: fixed;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: #172A3A;
+    width: 211.5vh;
+    height: 50px;
+    color: white;
+
+}
+
+.enterLeaveButton{
+    position: fixed;
+    left: 1250px;
+    top: 15px;
+}
