@@ -1,0 +1,33 @@
+.footerContent{
+    
+    height: 300px;
+border: solid purple ;
+margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{   
+    width: 405px;
+    height:100px;
+    gap: 7px;
+    opacity: 0px;
+
+    border: solid black;
+}
+
+.footerInfo{
+    
+    width: 600px;
+    height: 35px;
+    border: solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mapMarket{
+    margin-right: 10px;
+}
