@@ -1,0 +1,46 @@
+
+.content{
+    padding: 50px;
+    min-height: 100vh;
+    overflow-y: auto;
+}
+
+.profile{
+    display: flex;
+    justify-content: space-between;
+    border: solid black;
+    margin: 50px;
+    height: 300px;
+}
+
+.profileInfo{
+    border: solid blue;
+    width: 400px;
+    overflow-wrap: break-word;
+}
+
+.summary{
+    border: solid pink;
+    width: 400px;
+    overflow-wrap: break-word;
+}
+
+.myHistory{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: solid black;
+    margin: 50px;
+    height: auto;
+}
+
+.xp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: solid black;
+    margin: 50px;
+    height: 100px;
+    margin-bottom: 10px;
+    width: auto;
+}
