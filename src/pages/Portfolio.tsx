@@ -32,6 +32,10 @@ function Portfolio() {
                 <div>
                     <p>TEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOETOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOTEXTOETO</p>
                 </div>
+                <div className="xpFooter">
+                    Sinta-se livre para me contatar a qualquer momento!
+                    <h1>EMAIL</h1>
+                </div>
             </div>
         </div>
         <Footer />
