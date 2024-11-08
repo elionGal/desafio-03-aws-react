@@ -1,3 +1,4 @@
+import Footer from "../components/Footer"
 import Header from "../components/Header"
 import "../styles/PortfolioStyle.css"
 
@@ -33,7 +34,7 @@ function Portfolio() {
                 </div>
             </div>
         </div>
-        
+        <Footer />
         </>
     )
 }
