@@ -6,7 +6,9 @@ function Footer() {
     return(
         <>
         <div className="footerContent">
-            <p>Assim que possível, me envie um email para que possamos trabalhar felizes juntos!</p>
+            <div className="contact">
+                <p className="contactText">Assim que possível, me envie um email para que possamos trabalhar felizes juntos!</p>
+            </div>    
             <div className="icons">
                 <img src="/src/assets/images/Frame124.svg"/>
                 <img src="/src/assets/images/Property 1=facebook black.svg"/>

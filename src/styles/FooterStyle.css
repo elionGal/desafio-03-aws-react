@@ -1,8 +1,5 @@
 .footerContent{
-    
     height: 300px;
-border: solid purple ;
-margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,15 +11,12 @@ margin-top: 10px;
     height:100px;
     gap: 7px;
     opacity: 0px;
-
-    border: solid black;
 }
 
 .footerInfo{
     
     width: 600px;
     height: 35px;
-    border: solid black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,4 +24,19 @@ margin-top: 10px;
 
 .mapMarket{
     margin-right: 10px;
+}
+
+.contactText{
+    font-family: Roboto;
+font-size: 40px;
+font-weight: 700;
+line-height: 42px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.contact{
+    width: 900px;
 }
