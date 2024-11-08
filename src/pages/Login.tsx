@@ -1,6 +1,6 @@
 import "../styles/LoginStyle.css"
 
-function Searcher() {
+function Login() {
 
     return (
         <>
@@ -20,4 +20,4 @@ function Searcher() {
     )
   }
   
-  export default Searcher
+  export default Login
