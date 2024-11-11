@@ -38,6 +38,7 @@ function Login() {
             <div className="searcher">
                 <input 
                     className="bar"
+                    placeholder="Digite o nome do usuário"
                     value={username}
                     onChange={(e) => setUsername(e.target.value)}
                 />
@@ -45,19 +46,19 @@ function Login() {
                     type="button" 
                     className="enterButton"
                     onClick={handleLogin}
+                    disabled={!username}
                 >
-                    Enviar
                 </button>
             </div>
             <div className="ouText">
                 <span>ou</span>
             </div>
             <div className="gitGroup">
-                <span className="acessText">acesse sua conta</span>
+                <span className="acessText">acesse sua conta com</span>
                 <button 
                     type="button" 
                     className="gitButton"
-                    onClick={handleGitHubLogin} // Adiciona a função de autenticação
+                    onClick={handleGitHubLogin}
                 >
                     <FaGithub className="icon" /> GitHub
                 </button>
