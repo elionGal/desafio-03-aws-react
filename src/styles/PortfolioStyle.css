@@ -1,0 +1,105 @@
+
+.content{
+    padding-top: 700px;
+    min-height: 100vh;
+    overflow-y: auto;
+}
+
+.profile{
+    padding-top: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 64px;
+    margin-right: 64px;
+    margin-bottom: 128px;
+    height: 300px;
+}
+
+.profileInfo{
+    width: 400px;
+    overflow-wrap: break-word;
+}
+
+.summary{
+    width: 400px;
+    overflow-wrap: break-word;
+}
+
+.myHistory{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    width: auto;
+    margin-left: 64px;
+    margin-right: 64px;
+}
+
+.xp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    width: 1349px;
+    margin-top: 128px;
+    color: white;
+    background-color:#004346;
+}
+
+.experienceCard{
+    background-color: #508991;
+    border-radius: 20px;
+    padding: 32px 28px 32px 28px;
+    width: 200px;
+    margin: 10px; 
+    box-shadow: 8px 8px 0px rgba(9, 188, 138, 1);
+}
+
+.campCard{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+}
+
+.xpFooter{
+    background: #172A3A;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    color: white;
+}
+
+.editButtom{
+    width:80px;
+height: 80px;
+gap: 0px;
+opacity: 0px;
+background: #508991;
+color: white;
+position: fixed;
+top: 60px;
+left: 1200px;
+border-radius: 100px;
+border: none;
+cursor: pointer;
+}
+
+.penBefore{
+    width: 40px;
+    height: auto;
+}
+
+.penAfter{
+    width: 40px;
+    height: auto;
+}
+
+.historyport{
+    border: solid black;
+}

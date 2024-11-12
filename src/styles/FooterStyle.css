@@ -1,0 +1,42 @@
+.footerContent{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{   
+    width: 405px;
+    height:100px;
+    gap: 7px;
+    opacity: 0px;
+}
+
+.footerInfo{
+    
+    width: 600px;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mapMarket{
+    margin-right: 10px;
+}
+
+.contactText{
+    font-family: Roboto;
+font-size: 40px;
+font-weight: 700;
+line-height: 42px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.contact{
+    width: 900px;
+}
