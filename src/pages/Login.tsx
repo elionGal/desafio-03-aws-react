@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { FaGithub } from "react-icons/fa";
-import React, { useState } from "react";
+import { useState } from "react";
 import "../styles/LoginStyle.css";
 import { getAuth, signInWithPopup, GithubAuthProvider } from "firebase/auth"; // Importação necessária para autenticação
 import app from "../firebaseConfig.ts";
