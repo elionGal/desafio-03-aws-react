@@ -1,5 +1,6 @@
 
 .content{
+    padding-top: 700px;
     min-height: 100vh;
     overflow-y: auto;
 }
@@ -17,13 +18,11 @@
 }
 
 .profileInfo{
-    border: solid blue;
     width: 400px;
     overflow-wrap: break-word;
 }
 
 .summary{
-    border: solid pink;
     width: 400px;
     overflow-wrap: break-word;
 }
@@ -50,4 +49,25 @@
 
 .xpFooter{
     background: #172A3A;
+}
+
+.editButtom{
+    width:80px;
+height: 80px;
+top: 140px;
+left: 1199px;
+gap: 0px;
+opacity: 0px;
+background: #508991;
+color: white;
+position: fixed;
+top: 60px;
+left: 1400px;
+border-radius: 100px;
+border: none;
+}
+
+.penBefore{
+    width: 40px;
+    height: auto;
 }
