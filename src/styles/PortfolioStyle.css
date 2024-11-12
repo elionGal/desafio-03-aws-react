@@ -6,10 +6,9 @@
 }
 
 .profile{
-    padding-top: 50px;
+    padding-top: 500px;
     display: flex;
     justify-content: space-between;
-    border: solid black;
     margin-top: 50px;
     margin-left: 64px;
     margin-right: 64px;
@@ -31,7 +30,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border: solid black;
     height: auto;
     width: auto;
     margin-left: 64px;
@@ -40,15 +38,41 @@
 
 .xp{
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     justify-content: space-between;
     height: auto;
-    width: 100%;
+    width: 1349px;
     margin-top: 128px;
+    color: white;
+    background-color:#004346;
+}
+
+.experienceCard{
+    background-color: #508991;
+    border-radius: 20px;
+    padding: 32px 28px 32px 28px;
+    width: 200px;
+    margin: 10px; 
+    box-shadow: 8px 8px 0px rgba(9, 188, 138, 1);
+}
+
+.campCard{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
 }
 
 .xpFooter{
     background: #172A3A;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    color: white;
 }
 
 .editButtom{

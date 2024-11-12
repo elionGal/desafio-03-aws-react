@@ -175,8 +175,9 @@ function Portfolio() {
         <section id="experiencias"></section>
         <div className="xp">
           <h2>Experiências</h2>
+          <div className="campCard">
           {experiences.map((experience, index) => (
-            <div key={index} className="experience-card">
+            <div key={index} className="experienceCard">
               {isEditing ? (
                 <>
                   <input
@@ -242,6 +243,7 @@ function Portfolio() {
           {isEditing && (
             <button onClick={handleAddExperience}>Adicionar Experiência</button>
           )}
+        </div>
         </div>
         <section id="contato"></section>
         <div className="xpFooter">
