@@ -16,7 +16,7 @@ function Header() {
         <span onClick={() => scrollToSection("experiencias")}>Experiências</span>
         <span onClick={() => scrollToSection("contato")}>Contato</span>
       </div>
-      <button type="button" className="enterLeaveButton">Entrar</button>
+      <button type="button" className="enterLeaveButton"></button>
     </>
   );
 }
