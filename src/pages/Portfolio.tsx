@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import Spinner from "../components/Spinner";
 import "../styles/PortfolioStyle.css";
 import { FaPen } from "react-icons/fa";
+import { FaCheck } from "react-icons/fa";
 import { useEffect, useState } from "react";
 
 interface Profile {
@@ -116,7 +117,7 @@ function Portfolio() {
       <Header />
       <div className="content">
         <button onClick={handleEditToggle} className="editButtom">
-          {isEditing ? <FaPen className="penAfter" /> : <FaPen className="penBefore" />}
+          {isEditing ? <FaCheck className="penAfter" /> : <FaPen className="penBefore" />}
         </button>
         <section id="inicio"></section>
         <div className="profile">
