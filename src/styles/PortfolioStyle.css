@@ -54,15 +54,13 @@
 .editButtom{
     width:80px;
 height: 80px;
-top: 140px;
-left: 1199px;
 gap: 0px;
 opacity: 0px;
 background: #508991;
 color: white;
 position: fixed;
 top: 60px;
-left: 1400px;
+left: 1200px;
 border-radius: 100px;
 border: none;
 cursor: pointer;
@@ -76,4 +74,8 @@ cursor: pointer;
 .penAfter{
     width: 40px;
     height: auto;
+}
+
+.historyport{
+    border: solid black;
 }
