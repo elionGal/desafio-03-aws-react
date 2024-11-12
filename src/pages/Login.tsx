@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import { FaGithub } from "react-icons/fa";
 import React, { useState } from "react";
 import "../styles/LoginStyle.css";
@@ -6,10 +7,12 @@ import app from "../firebaseConfig.ts";
 
 function Login() {
     const [username, setUsername] = useState("");
+    const navigate = useNavigate();
 
     const handleLogin = () => {
         localStorage.setItem("username", username);
         alert(`Usuário ${username} armazenado com sucesso!`);
+        navigate("/portfolio");
     };
 
     const handleGitHubLogin = () => {
