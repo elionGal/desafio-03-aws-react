@@ -29,6 +29,7 @@ function Login() {
                     uid: user.uid
                 }));
                 alert("Login com GitHub realizado com sucesso!");
+                navigate("/portfolio");
             })
             .catch((error) => {
                 console.error("Erro ao fazer login com o GitHub:", error);
@@ -57,7 +58,7 @@ function Login() {
                 <span>ou</span>
             </div>
             <div className="gitGroup">
-                <span className="acessText">acesse sua conta com</span>
+                <span className="acessText">Acesse sua conta com</span>
                 <button 
                     type="button" 
                     className="gitButton"
