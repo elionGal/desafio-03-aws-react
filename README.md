@@ -1,50 +1,51 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Portifólio GitHub 
 
-Currently, two official plugins are available:
+O portfólio foi desenvolvido com React, utilizando TypeScript e diversas bibliotecas para adicionar funcionalidades e estilo ao projeto. O objetivo é criar uma plataforma interativa onde visitantes podem explorar as experiências, habilidades e o histórico profissional do desenvolvedor.
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+• Navegação: Menu de navegação no topo para facilitar o acesso às seções do portfólio, incluindo Início, Minha História, Experiências e Contato.
 
-## Expanding the ESLint configuration
+• Modo de Edição: Permite alternar entre o modo de visualização e edição das informações do portfólio.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+• Integração com GitHub: Recupera dados do perfil de GitHub do usuário.
 
-- Configure the top-level `parserOptions` property like this:
+• Armazenamento Local: Experiências e dados de perfil são armazenados localmente usando localStorage.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+• Componentes Interativos: Utilização de animações, ícones e componentes de carregamento para aprimorar a experiência do usuário.
+
+• Experiências Profissionais: Permite adicionar, editar e listar experiências profissionais.
+## Tecnologias utilizadas
+
+• React + TypeScript
+
+• React Router: Para navegação entre seções
+
+• React Icons: Para ícones
+
+• Firebase: Armazenamento e autenticação (se aplicável)
+
+• Git + GitFlow: Controle de versão e organização do fluxo de trabalho
+
+• Vite: Configuração do ambiente de desenvolvimento
+## Instalação e execução
+
+1. Clone o repositório:
+```
+git clone https://github.com/elionGal/desafio-03-aws-react
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+2. Instale as dependências:
+```
+npm install
+```
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+3. Execute a aplicação:
+```
+npm run dev
+```
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+4. Acesso pelo navegador:
+```
+http://localhost:5173/
 ```
