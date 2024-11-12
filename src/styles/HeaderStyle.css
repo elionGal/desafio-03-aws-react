@@ -1,7 +1,13 @@
 body{
     padding: 0;
     margin: 0;
+    
 }
+
+html {
+    scroll-behavior: smooth;
+  }
+  
 
 .box{
     display: flex;
@@ -11,9 +17,10 @@ body{
     background-color: #172A3A;
     width: 100%;
     height: 50px;
-    color: white;
-    position: fixed;
-
+    color: white;position: fixed; /* ou absolute */
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .enterLeaveButton{
@@ -21,3 +28,4 @@ body{
     left: 1250px;
     top: 15px;
 }
+
